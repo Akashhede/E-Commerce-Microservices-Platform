@@ -1,21 +1,42 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# E-Commerce Microservices Platform
 
-# Run and deploy your AI Studio app
+A scalable and production-style E-Commerce Microservices application built using Java, Spring Boot, and Spring Cloud. The project follows real-world microservices architecture with independent services for users, products, orders, payments, and API Gateway.
 
-This contains everything you need to run your app locally.
+The application is containerized using Docker, deployed with Kubernetes, and automated through Jenkins CI/CD pipelines. It also includes service discovery, centralized configuration, REST API communication, and monitoring tools for better scalability and reliability.
 
-View your app in AI Studio: https://ai.studio/apps/e868399f-b0b5-46cf-a6c5-dfc6320f0815
+## Tech Stack
 
-## Run Locally
+- Java
+- Spring Boot
+- Spring Cloud
+- MySQL
+- Docker
+- Kubernetes
+- Jenkins
+- Maven
+- Git
 
-**Prerequisites:**  Node.js
+## Features
 
+- Microservices Architecture
+- API Gateway
+- Service Discovery (Eureka)
+- REST APIs
+- Docker Containerization
+- Kubernetes Deployment
+- CI/CD Pipeline
+- Centralized Configuration
+- Monitoring & Logging
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
-# E-Commerce-Microservices-Platform
+## Project Structure
+
+```bash
+ecommerce-microservices/
+├── api-gateway/
+├── user-service/
+├── product-service/
+├── order-service/
+├── payment-service/
+├── discovery-server/
+├── config-server/
+└── docker-compose.yml
