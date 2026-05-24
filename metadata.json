@@ -1,0 +1,8 @@
+{
+  "name": "Uvicorn Microservices Hub",
+  "description": "An interactive e-commerce sandbox powered by Uvicorn, featuring 18 rich catalog items, real-time UPI mock payments, smart shipping deliveries, and automated microservice logs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
